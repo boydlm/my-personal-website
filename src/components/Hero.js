@@ -34,13 +34,6 @@ import {
                 <AiOutlineLinkedin size={40} />{" "}
               </a>
             </div>
-  
-            <a
-              href="/#projects"
-              className=" btn bg-accent border-2 text-white px-6 py-3 hover:bg-transparent"
-            >
-              See Projects
-            </a>
           </div>
   
           
