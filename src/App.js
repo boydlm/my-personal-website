@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Sidebar from "./components/Sidebar";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
     <div>
     <Hero />
     <About />
+    <Skills />
     <Sidebar />
     </div>
     

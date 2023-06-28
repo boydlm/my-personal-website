@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavigationList from "./NavigationList";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Fade as Hamburger } from 'hamburger-react'
 
 
 export default function Sidebar() {
@@ -8,24 +8,15 @@ export default function Sidebar() {
 
     return (
         <div>
-            {!isOpen ?
-                (
-                    <button className = "fixed z-30 flex items-center cursor-pointer right-10 top-6" onClick={() => setIsOpen(!isOpen)}>
-                        <AiOutlineMenu/> 
-                    </button>
-                ) :
-                (
-                    <button class="text-xl text-white fixed top-4 right-4 z-10" onClick={() => setIsOpen(!isOpen)}>
-                        <AiOutlineClose/>
-                    </button>
+            <div className="fixed z-30 flex items-center cursor-pointer right-10 top-6">
+                <Hamburger toggled={isOpen} toggle={setIsOpen} />
+            </div>
 
-                )
-            }
-            <div className={`top-0 right-0 fixed bg-green-500 w-[35vw] h-full 
+            <div className={`top-0 right-0 fixed bg-gray-500 w-[40vw] h-full 
                     p-10 ${isOpen ? 'translate-x-0' : 'translate-x-full'} ease-in-out
-                    duration-300`}>
+                    duration-700`}>
+                <NavigationList />
 
-                    <NavigationList/>
             </div>
         </div>
     )

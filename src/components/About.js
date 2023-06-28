@@ -10,19 +10,18 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hi, My Name is Leah Boyd. 
+            Hi there. 
           </p>
           <p className="pb-5">
-            My Frontend skills include React.js, HTML, CSS, and Tailwind CSS.
-          </p>
-
-          <p>In backend I know Python, Flask, Java, and mySQL.</p>
+            I'm currently studying computer science and art history at Boston College. I'm passionate about
+            combining my skills in art, design, and technology to create accessible and innovative web applications. 
+            </p>
 
           <p>
-            In my spare time I love to fiddle around with Procreate, read, and cook amazing food.
+            In my spare time I love to fiddle with Procreate, read (my favorite book is One Hundred Years of Solitude), and try viral Tik Tok recipes (you can't go wrong with this 
+            salmon and rice bowl recipe!)
           </p>
         </div>
-
         
       </div>
     </section>

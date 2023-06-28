@@ -3,20 +3,24 @@ import React from "react";
 const NavigationList = () => {
     const links=[
         {
-            "name": "About",
-            "url": "/#about"
+            name: "About",
+            url: "/#about"
         },
         {
-            "name": "Projects",
-            "url": "/#projects"
+            name: "Skills",
+            url: "/#skills"
         },
         {
-            "name": "Contact",
-            "url": "/#contact"
+            name: "Projects",
+            url: "/#projects"
         },
         {
-            "name": "Resume",
-            "url": "/#resume"
+            name: "Contact",
+            url: "/#contact"
+        },
+        {
+            name: "Resume",
+            url: "/#resume"
         },
         
     ]
@@ -24,7 +28,7 @@ const NavigationList = () => {
 
         <ul className="flex flex-col">
             {links.map((item)=> (
-                <li className="mt-5 cursor-pointer" key={item.name}>
+                <li className="mt-8 cursor-pointer font-extrabold text-xl" key={item.name}>
                     <a href={(item.url)}>
                         {item.name}
                     </a>
