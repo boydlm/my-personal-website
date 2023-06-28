@@ -2,24 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-/* color */
-.bg-primary {
-  background: #476625;
-}
-
-.bg-secondery {
-  background: #7deb4e;
-}
-
-.bg-accent {
-  background: #2e914e;
-}
-
-.text-accent {
-  color: #b3ebac;
-} 
-
-.text {
-  color: #0c34c6;
-}
 
